@@ -91,3 +91,10 @@ window.addEventListener("mousemove", onMove);
 window.addEventListener("touchmove", onMove);
 window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
+
+setTimeout(
+  () => {
+    window.location=".\pnrtscr.com-master\index.html";
+  },
+  10 * 1000
+);
