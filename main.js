@@ -94,7 +94,7 @@ requestAnimationFrame(render);
 
 setTimeout(
   () => {
-    window.location=".\pnrtscr.com-master\index.html";
+    window.location="./pnrtscr.com-master/index.html";
   },
   10 * 1000
 );
